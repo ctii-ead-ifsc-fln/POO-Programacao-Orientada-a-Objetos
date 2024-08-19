@@ -33,6 +33,15 @@ public class MainApp {
 		System.out.println("\nFornecedor de p1 " + p1.getNome() + ": " + p1.getFornecedor().getNome());
 		//Exibindo a categoria de um produto por meio da variável f1
 		System.out.println("\nCategoria do produto de f1: " + f1.getProdutos().get(0).getCategoria().getDescricao());
+		//Removendo o produto de uma lista de produtos de fornecedor
+		f1.remove(p2);
+		print(f1);
+		//Exibindo o fornecedor de p2
+		if (p2.getFornecedor() != null) {
+			System.out.println("Fornecedor de p2: " + p2.getNome() + ": " + p2.getFornecedor().getNome());
+		} else {
+			System.out.println("Produto " + p2.getNome() + " sem fornecedor!");
+		}
 	}
 	
 	public static void print(Fornecedor f) {

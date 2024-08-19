@@ -16,7 +16,8 @@ public class Casa {
         this.comodos.add(comodo);
     }
 
-    // Getters
+    // Na composição apenas o método get deve ser implementado
+    // para não quebrar a regra de negócio
     public List<Comodo> getComodos() {
         return comodos;
     }
