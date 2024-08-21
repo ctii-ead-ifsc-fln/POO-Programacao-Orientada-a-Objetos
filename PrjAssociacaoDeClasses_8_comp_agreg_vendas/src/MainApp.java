@@ -26,7 +26,6 @@ public class MainApp {
 		print(p1);
 		
 		//movimentação do estoque do produto p1
-		p1.getEstoque().retirar(50);
 		//exibindo os dados do produto com estoque atualizado
 		print(p1);
 				
