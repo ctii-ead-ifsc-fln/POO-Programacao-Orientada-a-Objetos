@@ -12,4 +12,6 @@
     <fullyQualifiedTypeName name="IResumoDados"/>
     <fullyQualifiedTypeName name="EStatusVenda"/>
     <fullyQualifiedTypeName name="ESituacao"/>
+    <fullyQualifiedTypeName name="domain.Imc"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
