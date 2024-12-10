@@ -1,0 +1,54 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Medico {
+    - nome : String
+    - cpf : String
+    - especialidade : String
+    - crm : String
+    + Medico(String nome, String cpf, String especialidade, String crm)
+    + adicionarConsulta(Consulta consulta) : void
+    + getters()
+}
+
+class Paciente {
+    - nome : String
+    - cpf : String
+    + Paciente(String nome, String cpf, String ruaEndereco, Cidade cidade)
+    + getters()
+}
+
+class Endereco {
+    - rua : String
+    + Endereco(String rua, Cidade cidade)
+    + getters()
+}
+
+class Cidade {
+    - nome : String
+    - uf : String
+    + Cidade(String nome, String uf)
+    + getters()
+}
+
+class Consulta {
+    - dataConsulta : String
+    - horario : String
+    + Consulta(String dataConsulta, String horario, Medico medico, Paciente paciente, Prioridade prioridade)
+    + setMedico(Medico medico): void
+    + getters()
+}
+
+enum Prioridade {
+    <<enumeration>>
+    ALTA
+    MEDIA
+    BAIXA
+}
+
+Medico "1" -- "0..* consulas" Consulta : "realiza"
+Consulta "0..*" --> "1" Paciente : "envolve"
+Consulta --> Prioridade : "define"
+Paciente "1" *--> "1" Endereco : "possui"
+Endereco "1" --> "1" Cidade : "localizado em"
+@enduml

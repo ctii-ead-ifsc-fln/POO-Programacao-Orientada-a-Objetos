@@ -1,0 +1,13 @@
+@startuml
+'!pragma layout smetana
+skinparam classAttributeIconSize 0
+package com.exemplo {
+  class Produto
+  class Cliente
+}
+
+package com.exemplo.servicos {
+  class Pedido
+}
+com.exemplo.servicos.Pedido --> com.exemplo.Produto
+@enduml

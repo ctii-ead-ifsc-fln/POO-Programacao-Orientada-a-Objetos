@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+skinparam classAttributeIconSize 0
+abstract class Funcionario {
+  +calcularSalario(): double
+}
+
+class Gerente extends Funcionario {
+  +calcularSalario(): double
+}
+
+class Vendedor extends Funcionario {
+  +calcularSalario(): double
+}
+@enduml
