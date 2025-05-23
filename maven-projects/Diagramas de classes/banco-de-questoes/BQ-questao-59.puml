@@ -1,0 +1,20 @@
+@startuml
+'!pragma layout smetana
+skinparam classAttributeIconSize 0
+class Pedido {
+  +id: int
+}
+
+class Produto {
+  +id: int
+  +nome: String
+}
+
+class ItemPedido {
+  +quantidade: int
+  +calcularSubtotal(): double
+}
+
+Pedido "0..*  " *-- "1..*  " Produto: contem >
+(Pedido, Produto) .. ItemPedido
+@enduml

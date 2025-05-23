@@ -1,0 +1,11 @@
+@startuml
+skinparam classAttributeIconSize 0
+class Produto {
+  -nome : String
+  -preco : double
+  +getNome() : String
+  +setNome(nome: String) : void
+  +getPreco() : double
+  +setPreco(preco: double) : void
+}
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+skinparam classAttributeIconSize 0
+class Departamento {
+  +adicionarFuncionario(funcionario: Funcionario): void
+}
+
+class Funcionario {
+  +nome: String
+}
+Departamento o--> Funcionario
+@enduml

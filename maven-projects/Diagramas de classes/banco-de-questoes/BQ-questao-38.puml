@@ -1,0 +1,13 @@
+@startuml
+'!pragma layout smetana
+skinparam classAttributeIconSize 0
+class Pedido {
+  +numero: int
+}
+
+class Produto {
+  +nome: String
+}
+
+Pedido "1" --> "*" Produto
+@enduml
