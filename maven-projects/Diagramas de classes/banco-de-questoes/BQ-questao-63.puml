@@ -1,0 +1,13 @@
+@startuml
+'!pragma layout smetana
+skinparam classAttributeIconSize 0
+class Carrinho {
+  +calcularTotal(produto: Produto, quantidade: int): double
+}
+
+class Produto {
+  +nome: String
+  +preco: double
+}
+Carrinho ..> Produto
+@enduml

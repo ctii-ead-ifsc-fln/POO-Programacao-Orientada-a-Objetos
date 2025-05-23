@@ -1,0 +1,13 @@
+@startuml
+'!pragma layout smetana
+skinparam classAttributeIconSize 0
+class Pessoa {
+  +nome: String
+}
+
+class Carro {
+  +modelo: String
+}
+
+Pessoa "1" -- "0..*" Carro
+@enduml
