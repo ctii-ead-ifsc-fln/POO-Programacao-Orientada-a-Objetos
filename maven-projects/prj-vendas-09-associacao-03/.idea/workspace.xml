@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c9ba233-4b2d-450d-b6aa-6a36d582083f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PrjCanetas/src/main/java/Caneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetas/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetasComConstrutorPadrao/src/main/java/Caneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetasComConstrutorPadrao/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetasSemConstrutorPadrao/src/main/java/Caneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetasSemConstrutorPadrao/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetasSemConstrutorPadraoESobrecarga/src/main/java/Caneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjCanetasSemConstrutorPadraoESobrecarga/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_1/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_1/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_2/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_2/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_3/src/main/java/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_3/src/main/java/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_3/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_4/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_4/src/main/java/MainApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_4/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_5/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_5/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_6/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjEncapsulamento_6/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricas/src/main/java/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricas/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricas/src/main/java/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricas/src/main/java/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos/src/main/java/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos/src/main/java/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos/src/main/java/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos_PrimeiroExemploDoEbook/src/main/java/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos_PrimeiroExemploDoEbook/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos_PrimeiroExemploDoEbook/src/main/java/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjFigurasGeometricasComMetodos_PrimeiroExemploDoEbook/src/main/java/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/IAbertura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/Janela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/JanelaBasculante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/JanelaCorrer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/Porta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/PortaConvencional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/PortaCorrer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjInterfaceContrato-IAbertura-1/src/main/java/PortaGiratoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_1/src/main/java/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_1/src/main/java/ESituacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_1/src/main/java/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_1/src/main/java/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_1/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_1/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_2/src/main/java/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_2/src/main/java/ESituacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_2/src/main/java/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_2/src/main/java/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_2/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrjVendas_enum_2/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-entrada-de-dados-console-imc/src/main/java/domain/Imc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-entrada-de-dados-console-imc/src/main/java/mainapp/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-01-encapsulamento_1/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-01-encapsulamento_1/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-02-encapsulamento-02/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-02-encapsulamento-02/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-03-encapsulamento-03/src/main/java/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-03-encapsulamento-03/src/main/java/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-03-encapsulamento-03/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-04-encapsulamento-04/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-04-encapsulamento-04/src/main/java/MainApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-04-encapsulamento-04/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-05-encapsulamento-05/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-05-encapsulamento-05/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-06-encapsulamento-06/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-06-encapsulamento-06/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-07-associacao-01/src/main/java/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-07-associacao-01/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-07-associacao-01/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-08-associacao-02/src/main/java/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-08-associacao-02/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj-vendas-08-associacao-02/src/main/java/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_7_agregacao_1/src/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_7_agregacao_1/src/main/java/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_7_agregacao_1/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_7_agregacao_1/src/main/java/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_7_agregacao_1/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_7_agregacao_1/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/main/java/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/main/java/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/Fornecedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/main/java/Fornecedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_8_comp_agreg_vendas/src/main/java/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_6_composicao_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_6_composicao_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_6_composicao_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PrjAssociacaoDeClasses_6_composicao_1/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2xUoK8IzE8b9UcXmP36MhA4hnHU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "maven-projects",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mpisc/IdeaProjects/poo-ebook/POO-Programacao-Orientada-a-Objetos/maven-projects/prj-vendas-09-associacao-03/src/main/java",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpisc\IdeaProjects\poo-ebook\POO-Programacao-Orientada-a-Objetos\maven-projects\prj-vendas-09-associacao-03\src\main\java" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9ba233-4b2d-450d-b6aa-6a36d582083f" name="Changes" comment="" />
+      <created>1748001946363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748001946363</updated>
+      <workItem from="1748001947432" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
