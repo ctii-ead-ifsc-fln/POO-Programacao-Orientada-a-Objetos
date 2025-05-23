@@ -1,0 +1,67 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+abstract class Pessoa {
+    - nome : String
+    - cpf : String
+    + Pessoa(String nome, String cpf)
+    # exibirInformacoes() : void
+}
+
+class Medico {
+    - especialidade : String
+    - crm : String
+    + Medico(String nome, String cpf, String especialidade, String crm)
+    + exibirInformacoes() : void
+    + agendarConsulta(Consulta consulta) : void
+}
+
+class Paciente {
+    - contato: String
+    + Paciente(String nome, String cpf, String contato, String rua, Cidade cidade)
+    + exibirInformacoes() : void
+    + agendarConsulta(Consulta consulta) : void
+}
+
+interface Agendavel {
+    + agendarConsulta(Consulta consulta) : void
+}
+
+class Consulta {
+    - data : String
+    - horario : String
+    - prioridade : Prioridade
+    + Consulta(String data, String horario)
+    + Consulta(String data, String horario, Prioridade prioridade)
+}
+
+class Endereco {
+    - rua : String
+    - complemento: String
+    + Endereco(String rua, Cidade cidade)
+}
+
+class Cidade {
+    - nome : String
+    - uf : String
+    + Cidade(String nome, String uf)
+}
+
+enum Prioridade {
+    <<enumeration>>
+    ALTA
+    MEDIA
+    BAIXA
+}
+
+Pessoa <|-- Medico
+Pessoa <|-- Paciente
+Medico ..|> Agendavel
+Paciente ..|> Agendavel
+Consulta --> Prioridade : "define"
+Consulta "consultas 1..*" -- "1" Paciente : "para"
+Paciente "1" *--> "1" Endereco : "possui"
+Endereco "1" --> "1" Cidade : "localizado em"
+
+Medico "1" o-- "consultas 0..*" Consulta : "realiza"
+@enduml

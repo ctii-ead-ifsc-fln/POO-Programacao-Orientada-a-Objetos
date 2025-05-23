@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+skinparam classAttributeIconSize 0
+class Pessoa {
+  +nome: String
+  +cadastrarEndereco(endereco: Endereco): void
+}
+class Endereco {
+  +rua: String
+  +numero: int
+}
+Pessoa --> Endereco
+@enduml
